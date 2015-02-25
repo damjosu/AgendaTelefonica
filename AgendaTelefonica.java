@@ -7,22 +7,30 @@ import java.util.HashMap;
  */
 public class AgendaTelefonica
 {
-    private HashMap<String, String> Agenda;
+    private HashMap<String, String> agenda;
     /**
      * Constructor for objects of class AgendaTelefonica
      */
     public AgendaTelefonica()
     {
-        Agenda = new HashMap<>();
+        agenda = new HashMap<>();
     }
-    
+
     public void enterNumber(String name, String number)
     {
-        Agenda.put(name, number);
+        agenda.put(name, number);
     }
-    
+
     public String lookupNumber(String name)
     {
-        return Agenda.get(name);
+        return agenda.get(name);
+    }
+
+    /**
+     * Print all keys
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
     }
 }
