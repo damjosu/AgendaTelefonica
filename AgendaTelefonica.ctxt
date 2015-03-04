@@ -1,12 +1,14 @@
 #BlueJ class context
 comment0.params=
 comment0.target=AgendaTelefonica()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AgendaTelefonica\r\n
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AgendaTelefonica\ \ \ \ \ *\ \r\n
 comment1.params=name\ number
 comment1.target=void\ enterNumber(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Introduce\ una\ persona\ y\ n\u00FAmero\ en\ la\ agenda.\r\n\ @param\ name\ El\ nombre\ de\ la\ persona\r\n\ @param\ number\ El\ n\u00FAmero\ asociado\ a\ la\ persona.\r\n
 comment2.params=name
 comment2.target=java.lang.String\ lookupNumber(java.lang.String)
+comment2.text=\r\n\ Busca\ por\ un\ nombre\ en\ la\ agenda.\r\n\ @param\ name\ El\ nombre\ por\ el\ que\ buscas.\r\n\ @return\ agenda.get(name)\ El\ n\u00FAmero\ asociado\ al\ nombre.\r\n
 comment3.params=
 comment3.target=void\ printAllNames()
-comment3.text=\r\n\ Print\ all\ keys\r\n
+comment3.text=\r\n\ Muestra\ todos\ los\ nombres.\ \r\n
 numComments=4
