@@ -1,19 +1,19 @@
 #BlueJ package file
 objectbench.height=100
-objectbench.width=353
+objectbench.width=355
 package.editor.height=400
 package.editor.width=560
-package.editor.x=271
-package.editor.y=300
+package.editor.x=312
+package.editor.y=170
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=311
-target1.editor.y=320
+target1.editor.height=746
+target1.editor.width=1368
+target1.editor.x=-4
+target1.editor.y=-4
 target1.height=50
 target1.name=AgendaTelefonica
 target1.naviview.expanded=true

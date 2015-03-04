@@ -1,15 +1,15 @@
 import java.util.HashMap;
 /**
- * Write a description of class AgendaTelefonica here.
+ * Clase AgendaTelefonica. Crea agendas con nombres y números y consulta su información.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Josu) 
+ * @version (4.3.15 - 4/03/2015)
  */
 public class AgendaTelefonica
 {
     private HashMap<String, String> agenda;
     /**
-     * Constructor for objects of class AgendaTelefonica     * 
+     * Constructor de la clase AgendaTelefonica. Crea una agenda vacia. 
      */
     public AgendaTelefonica()
     {
